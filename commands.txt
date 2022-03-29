@@ -1,2 +1,5 @@
 docker build --tag docker-test-1 .
 docker run --publish 8000:8000 docker-test-1
+
+docker-compose build
+docker-compose up
